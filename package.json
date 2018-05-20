@@ -1,0 +1,45 @@
+{
+    "author": "noa@wiz1str.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "p-b",
+    "pebble": {
+        "displayName": "P&B",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/icon.png",
+                    "menuIcon": true,
+                    "name": "icon",
+                    "targetPlatforms": [
+                        "basalt",
+                        "chalk"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/PinkyC.png",
+                    "name": "IMAGE_BACKGROUND",
+                    "targetPlatforms": [
+                        "basalt",
+                        "chalk"
+                    ],
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "3a720fde-f89f-4fbd-a7c8-d8c618c6cbb1",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
